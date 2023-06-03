@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+      <h1>Photo Gallery</h1>
+      <h2>Enter the number of photos</h2>
+      <input
+        type="number"
+        id="input"
+        class="input"
+        value=""
+        min="1"
+        max="10"
+      />
+      <small class="errorMessage" id="errorMessage">Error Message</small>
+      <button class="btn" id="btn">Get Photos</button>
+      <div class="gallery" id="gallery">
+        <img src="image1.JPG" alt="" />
+        <img src="image2.JPG" alt="" />
+        <img src="image3.JPG" alt="" />
+      </div>
+    </div>
+</body>
+</html>
